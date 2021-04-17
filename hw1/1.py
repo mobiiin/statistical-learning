@@ -28,6 +28,7 @@ y = ozone_dataset['ozone']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.3)
 reg = LinearRegression().fit(X_train, y_train)
 predictions = reg.predict(X_test)
+print(predictions)
 print('estimated coefficients for the linear regression:', reg.coef_)
 print('interception coefficient b_0 linear regression:', reg.intercept_)
 
