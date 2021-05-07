@@ -131,16 +131,16 @@ def print_mse(X, y, reg_type='linear', alpha=0):
 
 X, y = dataset()
 #### Problem_8 section_a
-print(forward_selection(X, y))
+# print(forward_selection(X, y))
 
 #### Problem_8 section_b
-forward_selection_regression(X, y, k_features=3)
+# forward_selection_regression(X, y, k_features=3)
 
 #### Problem_8 section_c
-print_mse(X, y)
+# print_mse(X, y)
 
 #### Problem_8 section_d
-lambdas = [0.001, 0.01, 0.1, 0.5, 1, 2, 10]
-for i in lambdas:
-    print_mse(X, y, 'lasso', alpha=i)
-    print_mse(X, y, 'ridge', alpha=i)
+# lambdas = [0.001, 0.01, 0.1, 0.5, 1, 2, 10]
+# for i in lambdas:
+#     print_mse(X, y, 'lasso', alpha=i)
+#     print_mse(X, y, 'ridge', alpha=i)
