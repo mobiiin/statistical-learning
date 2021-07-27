@@ -11,5 +11,5 @@ def plot_sigmoid(beta1):
 
 
 plot_sigmoid(1)
-plot_sigmoid(10)
-plot_sigmoid(100)
+# plot_sigmoid(10)
+# plot_sigmoid(100)
